@@ -1,0 +1,4 @@
+ATMOSPHERE CLOJURE EDITION
+
+For now, my goal is running clojure based atmosphere on heroku clojure framework.
+ref: http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/
