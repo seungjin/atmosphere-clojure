@@ -1,1 +1,3 @@
 * heroku requires ruby 1.9+ and heroku gem
+* use lein to make your life easier. don't do java. do clojure: https://github.com/technomancy/leiningen
+* clojure web development with Ring: http://mmcgrana.github.com/2010/03/clojure-web-development-ring.html
