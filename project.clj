@@ -1,4 +1,4 @@
-(defproject hello-world "0.0.1"
+(defproject atmosphere-clojure "0.0.1"
   :dependencies
   [
    [org.clojure/clojure "1.2.1"]

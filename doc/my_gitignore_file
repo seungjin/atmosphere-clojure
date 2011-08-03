@@ -7,3 +7,9 @@ clojure-contrib-src.jar
 clojure-contrib.jar
 clojure-src.jar
 clojure.jar
+pom.xml
+*jar
+/lib/
+/classes/
+.lein-failures
+.lein-deps-sum
