@@ -1,0 +1,12 @@
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true
+    ignorecase = true
+[remote "heroku"]
+    url = git@heroku.com:stormy-ice-919.git
+    fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "github"]
+    url = git@github.com:seungjin/atmosphere-clojure.git
+    fetch = +refs/heads/*:refs/remotes/heroku/*

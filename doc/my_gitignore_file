@@ -1,0 +1,9 @@
+.classpath
+.gitignore
+.project
+bin
+classes
+clojure-contrib-src.jar
+clojure-contrib.jar
+clojure-src.jar
+clojure.jar
