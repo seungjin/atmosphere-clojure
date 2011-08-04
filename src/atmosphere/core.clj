@@ -1,5 +1,10 @@
 (ns atmosphere.core
-  (:use ring.adapter.jetty))
+  (:use ring.adapter.jetty)
+  (:use compojure.core)
+  (:require 
+    [compojure.route :as route]
+    [compojure.handler :as handler])
+)
 
 (defn app [req]
   {
@@ -9,10 +14,14 @@
   }
 )
 
-(defn -main []
-  (let [port (Integer/parseInt (System/getenv "PORT"))]
-    (run-jetty app {:port port})))
+(defroutes rts
+  (GET "/" [] "Address Book!!")
+  (GET "/aa" [] "kkkk")
+  (route/not-found "Page not found")
+)
+
+(def application-routes rts)
 
 (defn dev_run []
-  (run-jetty #'app {:port 8080})
+  (run-jetty application-routes {:port 8080})
 )
